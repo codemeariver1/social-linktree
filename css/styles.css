@@ -3,7 +3,7 @@
     /*========== Colors ==========*/
     /* RGB color mode */
     --background-color: rgb(20, 20, 20);
-    --text-color: rgb(255, 255, 255);
+    --text-color: rgb(240, 240, 240);
     --share-btn-txt-color: rgb(0, 0 , 0);
     --tile-color: rgb(37, 37, 37);
     --tile-share-btn-color: rgb(52, 52, 52);
@@ -61,6 +61,15 @@ header {
 h1 {
     font-size: var(--tile-font-size);
     margin-bottom: 30px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black,
+        -0.07em -0.07em black,
+        -0.07em 0.07em black,
+        0.07em -0.07em black,
+        0.07em 0.07em black;
 }
 
 a {
@@ -167,4 +176,13 @@ a {
     text-align: center;
     color: var(--text-color);
     margin-top: 3rem;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black,
+        -0.07em -0.07em black,
+        -0.07em 0.07em black,
+        0.07em -0.07em black,
+        0.07em 0.07em black;
 }
