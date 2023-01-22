@@ -58,6 +58,17 @@ header {
     z-index: 1;
 }
 
+h1 {
+    font-size: var(--tile-font-size);
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*==================== LINKTREE CONTAINER ====================*/
 .linktree {
     width: 91%;
     max-width: 680px;
@@ -72,16 +83,6 @@ header {
     flex-direction: column;
     align-items: center;
     z-index: 1;
-}
-
-h1 {
-    font-size: var(--tile-font-size);
-    margin-bottom: 30px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--text-color);
 }
 
 /*==================== SHARE BUTTON ====================*/
