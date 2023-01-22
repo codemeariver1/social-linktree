@@ -3,7 +3,7 @@
     /*========== Colors ==========*/
     /* RGB color mode */
     --background-color: rgb(20, 20, 20);
-    --text-color: rgb(240, 240, 240);
+    --text-color: rgb(255, 255, 255);
     --share-btn-txt-color: rgb(0, 0 , 0);
     --tile-color: rgb(37, 37, 37);
     --tile-share-btn-color: rgb(52, 52, 52);
@@ -167,10 +167,4 @@ a {
     text-align: center;
     color: var(--text-color);
     margin-top: 3rem;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-      color: rgb(0, 0 , 0);
-    }
 }
