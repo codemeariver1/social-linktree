@@ -91,6 +91,7 @@ a {
     height: 40px;
     border-radius: 20px;
     background-color: var(--text-color);
+    cursor: pointer;
 }
 
 .share-btn svg {
@@ -111,6 +112,7 @@ a {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    cursor: default;
 }
 
 .tile:hover {
@@ -126,6 +128,7 @@ a {
     background-color: var(--tile-share-btn-color);
     background: rgba(37, 37, 37, 0.4);
     backdrop-filter: blur(40px);
+    cursor: pointer;
 }
 
 .tile-share-btn svg {
@@ -164,4 +167,10 @@ a {
     text-align: center;
     color: var(--text-color);
     margin-top: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: rgb(0, 0 , 0);
+    }
 }
