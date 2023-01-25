@@ -207,15 +207,11 @@ a {
 }
 
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
-@media (prefers-color-scheme: light) {
-    .share-btn svg {
-        fill: black;
-    }
-
+/*@media (prefers-color-scheme: light) {
     .share-btn svg path{
         fill: black;
     }
-}
+}*/
 
 @media (prefers-color-scheme: dark) {
     .share-btn svg {
