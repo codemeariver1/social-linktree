@@ -215,7 +215,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
     .share-btn svg path:nth-last-child(){
-        fill: white
+        fill: white;
     }
 
     .icon svg path{
