@@ -214,7 +214,7 @@ a {
 }*/
 
 @media (prefers-color-scheme: dark) {
-    .share-btn svg {
+    .share-btn svg path{
         fill: white;
     }
 
