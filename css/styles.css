@@ -213,13 +213,13 @@ a {
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
 @media (prefers-color-scheme: dark) {
     .image-container {
-        border-color: rgb(0, 0 , 0);
+        border-color: black;
     }
     
     .share-btn {
-        border-color: rgb(0, 0 , 0);
+        border-color: black;
     }
-
+    
     .icon svg path{
         fill: white;
     }
