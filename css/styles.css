@@ -214,7 +214,7 @@ a {
 }*/
 
 @media (prefers-color-scheme: dark) {
-    .share-btn svg:nth-last-child(){
+    .share-btn svg path:nth-last-child(){
         fill: white
     }
 
