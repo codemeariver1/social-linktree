@@ -209,10 +209,10 @@ a {
 /*==================== DARK MODE CHANGES ====================*/
 @media (prefers-color-scheme: dark) {
     .share-btn svg {
-        color: white;
+        fill: white;
     }
 
     .icon {
-        color: white;
+        fill: white;
     }
 }
