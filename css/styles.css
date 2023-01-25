@@ -213,9 +213,15 @@ a {
     }
 }*/
 
+@media (prefers-color-scheme: light) {
+    .share-btn svg {
+        fill: black;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
-    .share-btn[data-theme='dark'] {
-        background-color: white;
+    .share-btn svg {
+        fill: white;
     }
 
     .icon svg path{
