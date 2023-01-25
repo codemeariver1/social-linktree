@@ -120,6 +120,8 @@ a {
     margin-left: 8px;
     margin-top: 8px;
     /*color: var(--share-btn-txt-color);*/
+    color: black;
+    fill: black;
 }
 
 /*==================== LINKTREE CONTAINER ====================*/
