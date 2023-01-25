@@ -211,6 +211,10 @@ a {
     .share-btn svg {
         fill: black;
     }
+
+    .share-btn svg path{
+        fill: black;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
