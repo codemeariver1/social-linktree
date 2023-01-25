@@ -214,8 +214,8 @@ a {
 }*/
 
 @media (prefers-color-scheme: dark) {
-    .share-btn {
-        fill: rgba(240, 240, 240, 0.8);
+    .share-btn[data-theme='dark'] {
+        background-color: white;
     }
 
     .icon svg path{
