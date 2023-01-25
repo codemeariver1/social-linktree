@@ -58,8 +58,43 @@ header {
     z-index: 1;
 }
 
-h1 {
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*==================== PROFILE ====================*/
+.image-container {
+    height: 106px;
+    width: 106px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile h1 {
     font-size: var(--tile-font-size);
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black,
+        -0.07em -0.07em black,
+        -0.07em 0.07em black,
+        0.07em -0.07em black,
+        0.07em 0.07em black;
+}
+
+.profile p {
     margin-bottom: 30px;
     text-shadow:
         0.07em 0 black,
@@ -72,9 +107,19 @@ h1 {
         0.07em 0.07em black;
 }
 
-a {
-    text-decoration: none;
-    color: var(--text-color);
+/*==================== SHARE BUTTON ====================*/
+.share-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--text-color);
+    cursor: pointer;
+}
+
+.share-btn svg {
+    margin-left: 8px;
+    margin-top: 8px;
+    color: var(--share-btn-txt-color);
 }
 
 /*==================== LINKTREE CONTAINER ====================*/
@@ -94,26 +139,11 @@ a {
     z-index: 1;
 }
 
-/*==================== SHARE BUTTON ====================*/
-.share-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: var(--text-color);
-    cursor: pointer;
-}
-
-.share-btn svg {
-    margin-left: 12px;
-    margin-top: 10px;
-    color: var(--share-btn-txt-color);
-}
-
 /*==================== TILES ====================*/
 .tile {
     width: 100%;
     background-color: var(--tile-color);
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(40px);
     margin: 7px;
     border-radius: 17px;
@@ -135,24 +165,13 @@ a {
     height: 40px;
     border-radius: 20px;
     background-color: var(--tile-share-btn-color);
-    background: rgba(37, 37, 37, 0.4);
+    background: rgba(37, 37, 37, 0.5);
     backdrop-filter: blur(40px);
     cursor: pointer;
 }
 
 .tile-share-btn svg {
     margin-top: 10px;
-}
-
-.image-container {
-    height: 106px;
-    width: 106px;
-    border-radius: 48px;
-    overflow: hidden;
-}
-
-.image-container img {
-    height: 100%;
 }
 
 .icon {
