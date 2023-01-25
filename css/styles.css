@@ -119,7 +119,7 @@ a {
 .share-btn svg {
     margin-left: 8px;
     margin-top: 8px;
-    color: var(--share-btn-txt-color);
+    /*color: var(--share-btn-txt-color);*/
 }
 
 /*==================== LINKTREE CONTAINER ====================*/
