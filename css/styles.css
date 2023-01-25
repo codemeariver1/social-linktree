@@ -112,7 +112,7 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: rgba(180, 180, 180, 0.8);
     cursor: pointer;
 }
 
@@ -209,10 +209,6 @@ a {
 
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
 @media (prefers-color-scheme: dark) {
-    .share-btn svg {
-        color: white;
-    }
-
     .icon svg path{
         fill: white;
     }
