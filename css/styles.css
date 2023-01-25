@@ -211,6 +211,14 @@ a {
 }
 
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
+.image-container {
+    border-color: black;
+}
+
+.share-btn {
+    border-color: black;
+}
+
 @media (prefers-color-scheme: dark) {
     .icon svg path{
         fill: white;
