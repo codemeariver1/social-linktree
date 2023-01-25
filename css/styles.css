@@ -120,6 +120,7 @@ a {
     margin-left: 8px;
     margin-top: 8px;
     /*color: var(--share-btn-txt-color);*/
+    color: black;
 }
 
 /*==================== LINKTREE CONTAINER ====================*/
@@ -208,6 +209,10 @@ a {
 
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
 @media (prefers-color-scheme: dark) {
+    .share-btn svg {
+        color: white;
+    }
+
     .icon svg path{
         fill: white;
     }
