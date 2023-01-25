@@ -120,8 +120,6 @@ a {
     margin-left: 8px;
     margin-top: 8px;
     /*color: var(--share-btn-txt-color);*/
-    color: black;
-    fill: black;
 }
 
 /*==================== LINKTREE CONTAINER ====================*/
@@ -216,8 +214,7 @@ a {
 }*/
 
 @media (prefers-color-scheme: dark) {
-    .share-btn svg {
-        color: white;
+    .share-btn svg:nth-last-child(){
         fill: white
     }
 
