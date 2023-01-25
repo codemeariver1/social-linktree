@@ -205,3 +205,14 @@ a {
         0.07em -0.07em black,
         0.07em 0.07em black;
 }
+
+/*==================== DARK MODE CHANGES ====================*/
+@media (prefers-color-scheme: dark) {
+    .share-btn svg {
+        color: white;
+    }
+
+    .icon {
+        color: white;
+    }
+}
