@@ -69,8 +69,7 @@ a {
     width: 106px;
     border-radius: 48px;
     overflow: hidden;
-    border-style: solid;
-    border-width: 2px;
+    border: 2.5px solid #ffffff !important;
 }
 
 .image-container img {
@@ -115,8 +114,8 @@ a {
     height: 40px;
     border-radius: 20px;
     background-color: rgba(180, 180, 180, 0.8);
-    border-style: solid;
-    border-width: 2px;
+    backdrop-filter: blur(40px);
+    border: 2px solid #ffffff !important;
     cursor: pointer;
 }
 
@@ -179,19 +178,64 @@ a {
 }
 
 .icon {
-    margin: 4px 8px;
+    margin: 8px;
     width: 44px;
     height: 44px;
+}
+
+/*==================== DONATE BUTTON ====================*/
+.donate-btn-container{
+    width: 49%;
+    min-width: 260px;
+    height: 60px;
+    max-width: 680px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background: rgba(203, 199, 23, 0.7);
+    backdrop-filter: blur(40px);
+    border: 2.5px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.donate-btn-container:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41,c.82, 1.41) 0.2s;
+}
+
+.donate-btn {
+    width: 100%;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    justify-content: center;
+}
+
+.donate-btn svg {
+    margin: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.donate-btn a {
+    padding-left: 10%;
+    padding-right: 15%;
 }
 
 /*==================== FOOTER ====================*/
 .footer {
     padding-top: 2rem;
+    /*width: 100%;*/
     z-index: 1;
 }
 
 .footer-bg {
-    padding: 2rem 0 3rem;
+    padding: 0 0 3rem;
+    /*padding: 0.5px 0 32px;
+    background: rgba(40, 40, 40, 0.4);*/
 }
 
 .footer-copyright{
@@ -200,14 +244,14 @@ a {
     color: var(--text-color);
     margin-top: 3rem;
     text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black,
-        -0.07em -0.07em black,
-        -0.07em 0.07em black,
-        0.07em -0.07em black,
-        0.07em 0.07em black;
+        0.09em 0 black,
+        0 0.09em black,
+        -0.09em 0 black,
+        0 -0.09em black,
+        -0.09em -0.09em black,
+        -0.09em 0.09em black,
+        0.09em -0.09em black,
+        0.09em 0.09em black;
 }
 
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
