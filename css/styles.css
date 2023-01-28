@@ -261,11 +261,11 @@ a {
     }
     
     .share-btn {
-        border-color: black;
+        border-color: #010101;
     }
     
     .icon svg path{
-        fill: white;
+        fill: #fefefe;
     }
 
     .donate-btn-container{
