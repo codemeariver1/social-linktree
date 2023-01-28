@@ -113,7 +113,7 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(180, 180, 180, 0.8);
+    background-color: rgba(180, 180, 180, 0.8) !important;
     backdrop-filter: blur(40px);
     border: 2px solid #ffffff !important;
     cursor: pointer;
