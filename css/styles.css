@@ -263,6 +263,10 @@ a {
     .share-btn {
         border-color: #010101;
     }
+
+    .share-btn svg {
+        color: #c3c3c3;
+    }
     
     .icon svg path{
         fill: #fefefe;
