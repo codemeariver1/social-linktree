@@ -257,7 +257,7 @@ a {
 /*==================== DARK/LIGHT MODE CHANGES ====================*/
 @media (prefers-color-scheme: dark) {
     .image-container {
-        border-color: black;
+        border-color: #000000 !important;
     }
     
     .share-btn {
@@ -266,5 +266,9 @@ a {
     
     .icon svg path{
         fill: white;
+    }
+
+    .donate-btn-container{
+        border-color: #000000 !important;
     }
 }
