@@ -199,11 +199,13 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
+    
 }
 
 .donate-btn-container:hover {
     transform: scale(1.02);
     transition: cubic-bezier(.07, 1.41,c.82, 1.41) 0.2s;
+    box-shadow: 0 5px 15px rgba(203, 199, 23, 0.4);
 }
 
 .donate-btn {
