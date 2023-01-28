@@ -193,7 +193,7 @@ a {
     margin-left: 15px;
     background: rgba(203, 199, 23, 0.7);
     backdrop-filter: blur(40px);
-    border: 2.5px solid;
+    border: 2.5px solid #ffffff !important;
     border-radius: 20px;
     display: flex;
     align-items: center;
