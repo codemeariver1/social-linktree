@@ -1,0 +1,282 @@
+/*==================== VARIABLES CSS ====================*/
+:root  {
+    /*========== Colors ==========*/
+    /* RGB color mode */
+    --background-color: rgb(20, 20, 20);
+    --text-color: rgb(240, 240, 240);
+    --share-btn-txt-color: rgb(0, 0 , 0);
+    --tile-color: rgb(37, 37, 37);
+    --tile-share-btn-color: rgb(52, 52, 52);
+
+    /*========== Font and typography ==========*/
+    --body-font: Verdana, Tahoma, sans-serif;
+
+    --tile-font-size: 20px;
+}
+
+/*==================== BACKGROUND IMAGE ====================*/
+.bg-img {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+
+.bg-img img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 0;
+}
+
+/*==================== BASE ====================*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: var(--body-font);
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*==================== PROFILE ====================*/
+.image-container {
+    height: 106px;
+    width: 106px;
+    border-radius: 48px;
+    overflow: hidden;
+    border: 2.5px solid #ffffff !important;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile h1 {
+    font-size: var(--tile-font-size);
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black,
+        -0.07em -0.07em black,
+        -0.07em 0.07em black,
+        0.07em -0.07em black,
+        0.07em 0.07em black;
+}
+
+.profile p {
+    margin-bottom: 30px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black,
+        -0.07em -0.07em black,
+        -0.07em 0.07em black,
+        0.07em -0.07em black,
+        0.07em 0.07em black;
+}
+
+/*==================== SHARE BUTTON ====================*/
+.share-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(180, 180, 180, 0.8) !important;
+    backdrop-filter: blur(40px);
+    border: 2px solid #ffffff !important;
+    cursor: pointer;
+}
+
+.share-btn svg {
+    margin-left: 8px;
+    margin-top: 8px;
+    fill: #000000 !important;
+    /*color: var(--share-btn-txt-color);*/
+}
+
+/*==================== LINKTREE CONTAINER ====================*/
+.linktree {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+/*==================== TILES ====================*/
+.tile {
+    width: 100%;
+    background-color: var(--tile-color);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(40px);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41,c.82, 1.41) 0.2s;
+}
+
+.tile-share-btn {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--tile-share-btn-color);
+    background: rgba(37, 37, 37, 0.5);
+    backdrop-filter: blur(40px);
+    cursor: pointer;
+}
+
+.tile-share-btn svg {
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+/*==================== DONATE BUTTON ====================*/
+.donate-btn-container{
+    width: 49%;
+    min-width: 260px;
+    height: 60px;
+    max-width: 680px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background: rgba(180, 155, 28, 0.8);
+    backdrop-filter: blur(40px);
+    border: 2.5px solid #ffffff !important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.donate-btn-container:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41,c.82, 1.41) 0.2s;
+    box-shadow: 0 5px 15px rgba(203, 199, 23, 0.4);
+}
+
+.donate-btn {
+    width: 100%;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    justify-content: center;
+}
+
+.donate-btn svg {
+    margin: 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.donate-btn a {
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+/*==================== FOOTER ====================*/
+footer {
+    padding-top: 2rem;
+    /*width: 100%;*/
+    z-index: 1;
+}
+
+.footer-bg {
+    padding: 0 0 3rem;
+    /*padding: 0.5px 0 32px;
+    background: rgba(40, 40, 40, 0.4);*/
+}
+
+.footer-copyright{
+    font-size: .75rem;
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 3rem;
+    text-shadow:
+        0.09em 0 black,
+        0 0.09em black,
+        -0.09em 0 black,
+        0 -0.09em black,
+        -0.09em -0.09em black,
+        -0.09em 0.09em black,
+        0.09em -0.09em black,
+        0.09em 0.09em black;
+}
+
+/*==================== DARK/LIGHT MODE CHANGES ====================*/
+@media (prefers-color-scheme: dark) {
+    .image-container {
+        border-color: #010101;
+    }
+    
+    .share-btn {
+        border-color: #010101;
+        background-color: rgba(37, 37, 37, 0.9);
+    }
+
+    .share-btn svg {
+        fill: #d7d7d7;
+    }
+    
+    .icon svg path{
+        fill: #f3f3f3;
+    }
+
+    .donate-btn-container{
+        border-color: #010101;
+    }
+}
