@@ -10,7 +10,6 @@
 
     /*========== Font and typography ==========*/
     --body-font: Verdana, Tahoma, sans-serif;
-
     --tile-font-size: 20px;
 }
 
@@ -46,6 +45,7 @@ body {
     flex-direction: column;
     width: 100vw;
     font-family: var(--body-font);
+    overflow-x: hidden;
 }
 
 header {
